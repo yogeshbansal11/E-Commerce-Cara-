@@ -16,37 +16,37 @@ const Header = () => {
              <li>
             {/* <a className="active" href="index.html">Home</a> */}
            
-            <Link className="active nav-link" to={"index.html"}>
+            <Link className="active nav-link" to={"/"}>
               Home
             </Link>
             </li> 
 
             <li>
-            <Link className="nav-link" to={"shop.html"}>
+            <Link className="nav-link" to={"/shop/"}>
               Shop
             </Link>
             </li>
 
             <li>
-            <Link className="nav-link" to={"blog.html"}>
+            <Link className="nav-link" to={"/blog/"}>
               Blog
             </Link>
             </li>
 
             <li>
-            <Link className="nav-link" to={"about.html"}>
+            <Link className="nav-link" to={"/about/"}>
               About
             </Link>
             </li>
 
              <li>
-            <Link className="nav-link" to={"contact.html"}>
+            <Link className="nav-link" to={"/contact/"}>
               Contact
             </Link>
             </li>
 
             <li id="lg-bag">
-              <Link to={"cart.html"}>
+              <Link to={"/cart/"}>
                 <i className="fa fa-shopping-bag" aria-hidden="true"></i>
               </Link>
             </li>
