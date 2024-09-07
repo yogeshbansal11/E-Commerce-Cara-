@@ -1,5 +1,5 @@
 import React from "react";
-import product1 from "./item1";
+import Items from "./Item1";
 import prof1 from "../../assets/proimg/f1.jpg";
 import prof2 from "../../assets/proimg/f2.jpg";
 import prof3 from "../../assets/proimg/f3.jpg";
@@ -35,7 +35,7 @@ const Product1 = () => {
         <a href="#"><i className="fal fa-shopping-cart cart"></i></a>
       </div> */}
 
-          {product1.map((item) => (
+          {Items.map((item) => (
             // <Link
             //   className="pro"
             //   to={"/Prodetails/"}
@@ -165,4 +165,4 @@ const Product1 = () => {
   );
 };
 
-export default product1;
+export default Product1;
