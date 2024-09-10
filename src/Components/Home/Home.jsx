@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section id="hero" class="section-p1">
+    <section id="hero" className="section-p1">
     <h4>Trade-in-offer</h4>
     <h2>Super value deals</h2>
     <h1>On all products</h1>
