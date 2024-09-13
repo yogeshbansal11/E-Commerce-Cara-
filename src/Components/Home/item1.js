@@ -6,14 +6,14 @@ import p5img from "../../assets/proimg/f5.jpg";
 import p6img from "../../assets/proimg/f6.jpg";
 import p7img from "../../assets/proimg/f7.jpg";
 import p8img from "../../assets/proimg/f8.jpg";
-import p9img from '../../assets/arrivalimages/n1 (1).jpg';
-import p10img from '../../assets/arrivalimages/n2 (1).jpg';
-import p11img from '../../assets/arrivalimages/n3 (1).jpg';
-import p12img from '../../assets/arrivalimages/n4 (1).jpg';
-import p13img from '../../assets/arrivalimages/n5 (1).jpg';
-import p14img from '../../assets/arrivalimages/n6 (1).jpg';
-import p15img from '../../assets/arrivalimages/n7 (1).jpg';
-import p16img from '../../assets/arrivalimages/n8 (1).jpg';
+import p9img from '../../assets/arrivalimages/n9.jpg';
+import p10img from '../../assets/arrivalimages/n10.jpg';
+import p11img from '../../assets/arrivalimages/n11.jpg';
+import p12img from '../../assets/arrivalimages/n12.jpg';
+import p13img from '../../assets/arrivalimages/n13.jpg';
+import p14img from '../../assets/arrivalimages/n14.jpg';
+import p15img from '../../assets/arrivalimages/n15.jpg';
+import p16img from '../../assets/arrivalimages/n16.jpg';
 
 const Item1 = [
     {

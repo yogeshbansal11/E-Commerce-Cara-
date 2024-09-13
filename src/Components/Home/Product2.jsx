@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Items from "./Item1";
-import arrivalimg1 from '../../assets/arrivalimages/n1 (1).jpg'
-import arrivalimg2 from '../../assets/arrivalimages/n2 (1).jpg'
-import arrivalimg3 from '../../assets/arrivalimages/n3 (1).jpg'
-import arrivalimg4 from '../../assets/arrivalimages/n4 (1).jpg'
-import arrivalimg5 from '../../assets/arrivalimages/n5 (1).jpg'
-import arrivalimg6 from '../../assets/arrivalimages/n6 (1).jpg'
-import arrivalimg7 from '../../assets/arrivalimages/n7 (1).jpg'
-import arrivalimg8 from '../../assets/arrivalimages/n8 (1).jpg'
+// import arrivalimg1 from '../../assets/arrivalimages/n1 (1).jpg'
+// import arrivalimg2 from '../../assets/arrivalimages/n2 (1).jpg'
+// import arrivalimg3 from '../../assets/arrivalimages/n3 (1).jpg'
+// import arrivalimg4 from '../../assets/arrivalimages/n4 (1).jpg'
+// import arrivalimg5 from '../../assets/arrivalimages/n5 (1).jpg'
+// import arrivalimg6 from '../../assets/arrivalimages/n6 (1).jpg'
+// import arrivalimg7 from '../../assets/arrivalimages/n7 (1).jpg'
+// import arrivalimg8 from '../../assets/arrivalimages/n8 (1).jpg'
 import { Link } from 'react-router-dom';
 
 const Product2 = () => {
