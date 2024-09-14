@@ -32,7 +32,7 @@ const Product1 = () => {
             //   style={{ textDecoration: "none" }}
             // >
 
-            <div className="pro">
+            <Link to={`Prodetails/${item.id}`} className="pro">
               <img src={item.image} alt="" />
               <div className="des">
                 <span>{item.brand}</span>
@@ -49,7 +49,7 @@ const Product1 = () => {
               <a href="#">
                 <i className="fa-solid fa-cart-shopping"></i>
               </a>
-              </div>
+              </Link>
             // </Link>
           ))}
 
