@@ -24,7 +24,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
     "price":"$78",
-    "image": p1img,
+    "image": [p1img,p2img,p3img,p4img],
     "category": "featured_product"
 },
 {
@@ -32,7 +32,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
     "price":"$78",
-    "image": p2img,
+    "image": [p2img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -40,7 +40,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p3img,
+    "image": [p3img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -48,7 +48,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p4img,
+    "image": [p4img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -56,7 +56,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p5img,
+    "image": [p5img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -64,7 +64,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p6img,
+    "image": [p6img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -72,7 +72,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p7img,
+    "image": [p7img,p2img,p3img,p4img],
      "category": "featured_product"
 },
 {
@@ -80,7 +80,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p8img,
+    "image": [p8img,p2img,p3img,p4img],
     "category": "featured_product"
 },
 {
@@ -88,7 +88,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p9img,
+    "image": [p9img,p2img,p3img,p4img],
     "category": "New Arrivals"
     
 },
@@ -97,7 +97,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p10img,
+    "image": [p10img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -105,7 +105,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p11img,
+    "image": [p11img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -113,7 +113,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p12img,
+    "image":[p12img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -121,7 +121,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p13img,
+    "image":[p13img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -129,7 +129,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p14img,
+    "image": [p14img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -137,7 +137,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p15img,
+    "image": [p15img,p2img,p3img,p4img],
     "category": "New Arrivals"
 },
 {
@@ -145,7 +145,7 @@ const Product_Items = [
     "brand":"Adidas",
     "title":"Cartoon Astronaut T-shirts",
    "price":"$78",
-    "image": p16img,
+    "image": [p16img,p2img,p3img,p4img],
     "category": "New Arrivals"
 }
 

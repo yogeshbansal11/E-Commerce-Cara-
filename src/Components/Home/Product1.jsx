@@ -32,8 +32,8 @@ const Product1 = () => {
             //   style={{ textDecoration: "none" }}
             // >
 
-            <Link to={`Prodetails/${item.id}`} className="pro">
-              <img src={item.image} alt="" />
+            <Link to={`/Prodetails/${item.id}`} className="pro">
+              <img src={item.image[0]} alt="" />
               <div className="des">
                 <span>{item.brand}</span>
                 <h5>{item.title}</h5>

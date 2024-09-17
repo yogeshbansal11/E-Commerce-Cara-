@@ -50,7 +50,7 @@ function App() {
           <Route path="/contact" element={<ContactMain />}></Route>
           <Route path="/cart" element={<CartMain />}></Route>
           {/* <Route path="/sproduct" element={<SProductMain />}></Route> */}
-          <Route path="/sproduct/:id" element={<Prodetails />}></Route>
+          <Route path="/prodetails/:id" element={<Prodetails />}></Route>
         </Routes>
           <Footer />
 
