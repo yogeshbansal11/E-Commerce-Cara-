@@ -35,6 +35,7 @@ const Product1 = () => {
             <Link to={`/Prodetails/${item.id}`} className="pro">
               <img src={item.image[0]} alt="" />
               <div className="des">
+                
                 <span>{item.brand}</span>
                 <h5>{item.title}</h5>
                 <div className="star">
