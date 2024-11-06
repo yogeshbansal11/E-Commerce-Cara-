@@ -9,7 +9,7 @@ const ShopMain = () => {
     <>
   <Pageheader/>
    <Product1/>
-   <Product2/>
+   {/* <Product2/> */}
    <Newsletter/>
    </>
   )

@@ -16,7 +16,7 @@ const HomeMain = () => {
    <Feature />
    <Product1/>
    <Banner/>
-   <Product2/>
+   {/* <Product2/> */}
    <Smbanner/>
    <Banner3/>
    <Newsletter/>
