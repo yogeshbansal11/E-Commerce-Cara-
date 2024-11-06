@@ -1197,3 +1197,87 @@ footer .copyright {
   font-size: 13px;
 }
 
+.login{
+  background-color: var(--bg-clr);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.app-container {
+  text-align: center;
+}
+
+.auth-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: auto;
+  
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #088178;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.auth-container button:hover {
+  background-color: #16948c;
+}
+
+.auth-container p {
+  margin-top: 20px;
+}
+
+.auth-container a {
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+.login-btn{
+  border: 1px solid #088178;
+  border-radius: 7px;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease;
+  background-color: #088178;
+}
+
+.login-btn:hover{
+  color: #fff;
+  background-color: #278e87;
+}
