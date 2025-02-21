@@ -74,13 +74,19 @@ const login = async (req, res) => {
 
 const getuser = async(req,res)=>{
   try{
-    const {id} = req.params;
-    const user = await usermodel.findOne({ _id:id });
+    const data=req.header("authorization")
+    console.log(data,'\n');
+    if (!data) {
+      return res.status(400).json({ message: "User not found" })
+    }
+    const user = await usermodel.findById(data);
     if (!user) {
       return res.status(400).json({ message: "User not found" });
     }
     return res.status(200).json(user);
   }catch (error) {
+    console.log(error);
+    
     return res.status(500).json({ message: "Internal server error" });
 }
 }
