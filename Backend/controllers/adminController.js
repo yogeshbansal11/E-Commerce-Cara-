@@ -25,6 +25,7 @@ export const getAllSellers = async (req, res) => {
 };
 
 // Toggle user block status
+
 export const toggleUserBlock = async (req, res) => {
   try {
     const { userId } = req.params;
